@@ -29,3 +29,7 @@ Typer Game is a simple web-based typing game where players need to type a random
 
    ```bash
    git clone https://github.com/your-username/typer-game.git
+
+ # Can be access via below link
+    [Typer-Game](https://mwakanemela.github.io/Typer-Game/)
+
