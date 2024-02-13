@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.card {
+  width: 70%;
+  max-width: 400px; /* Set a max-width for responsiveness */
+  margin: 125px auto;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+.input-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+input,
+button {
+  margin-bottom: 15px;
+  padding: 10px;
+  width: 100%; /* Make the input and buttons take full width */
+}
+
+button {
+  background-color: rgb(107, 62, 230);
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 1.5rem;
+  transition: background-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  box-shadow: 3px 3px 4px gray;
+}
+
+button:hover {
+  background-color: rgba(106, 61, 230, 0.7);
+  box-shadow: 6px 6px 4px gray;
+}
